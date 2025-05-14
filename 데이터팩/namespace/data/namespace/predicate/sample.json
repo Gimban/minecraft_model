@@ -1,0 +1,11 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "inventory.*": {
+                "items": "iron_sword"
+            }
+        }
+    }
+}
