@@ -1,0 +1,1 @@
+give @s red_stained_glass_pane[creative_slot_lock=1b] 1
