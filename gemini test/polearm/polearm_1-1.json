@@ -1,0 +1,125 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/your_new_polearm_texture"
+  },
+  "elements": [
+    {
+      "name": "Shaft_Main",
+      "from": [ 7.5, 0, 7.5 ],
+      "to": [ 8.5, 20, 8.5 ],
+      "faces": {
+        "down":  { "uv": [ 0, 0, 1, 1 ], "texture": "#layer0" },
+        "up":    { "uv": [ 1, 0, 2, 1 ], "texture": "#layer0" },
+        "north": { "uv": [ 0, 1, 1, 21 ], "texture": "#layer0" },
+        "south": { "uv": [ 1, 1, 2, 21 ], "texture": "#layer0" },
+        "west":  { "uv": [ 2, 1, 3, 21 ], "texture": "#layer0" },
+        "east":  { "uv": [ 3, 1, 4, 21 ], "texture": "#layer0" }
+      }
+    },
+    {
+      "name": "Shaft_Tip_Reinforcement",
+      "from": [ 7, 19.5, 7 ],
+      "to": [ 9, 21, 9 ],
+      "faces": {
+        "down":  { "uv": [ 4, 0, 6, 2 ], "texture": "#layer0" },
+        "up":    { "uv": [ 6, 0, 8, 2 ], "texture": "#layer0" },
+        "north": { "uv": [ 4, 2, 6, 3.5 ], "texture": "#layer0" },
+        "south": { "uv": [ 6, 2, 8, 3.5 ], "texture": "#layer0" },
+        "west":  { "uv": [ 8, 2, 10, 3.5 ], "texture": "#layer0" },
+        "east":  { "uv": [ 10, 2, 12, 3.5 ], "texture": "#layer0" }
+      }
+    },
+    {
+      "name": "Polearm_Head_Base",
+      "from": [ 7, 21, 7 ],
+      "to": [ 9, 23, 9 ],
+      "faces": {
+        "down":  { "uv": [ 0, 4, 2, 6 ], "texture": "#layer0" },
+        "up":    { "uv": [ 2, 4, 4, 6 ], "texture": "#layer0" },
+        "north": { "uv": [ 0, 6, 2, 8 ], "texture": "#layer0" },
+        "south": { "uv": [ 2, 6, 4, 8 ], "texture": "#layer0" },
+        "west":  { "uv": [ 4, 6, 6, 8 ], "texture": "#layer0" },
+        "east":  { "uv": [ 6, 6, 8, 8 ], "texture": "#layer0" }
+      }
+    },
+    {
+      "name": "Main_Blade_Right",
+      "from": [ 8, 23, 7.5 ],
+      "to": [ 12, 28, 8.5 ],
+      "rotation": { "angle": -15, "axis": "z", "origin": [8, 23, 8] },
+      "faces": {
+        "down":  { "uv": [ 8, 4, 12, 5 ], "texture": "#layer0" },
+        "up":    { "uv": [ 12, 4, 16, 5 ], "texture": "#layer0" },
+        "north": { "uv": [ 8, 5, 12, 10 ], "texture": "#layer0" },
+        "south": { "uv": [ 12, 5, 16, 10 ], "texture": "#layer0" },
+        "west":  { "uv": [ 0, 9, 1, 14 ], "texture": "#layer0" },
+        "east":  { "uv": [ 1, 9, 2, 14 ], "texture": "#layer0" }
+      }
+    },
+    {
+      "name": "Main_Blade_Left",
+      "from": [ 4, 23, 7.5 ],
+      "to": [ 8, 28, 8.5 ],
+      "rotation": { "angle": 15, "axis": "z", "origin": [8, 23, 8] },
+      "faces": {
+        "down":  { "uv": [ 8, 4, 12, 5 ], "texture": "#layer0" },
+        "up":    { "uv": [ 12, 4, 16, 5 ], "texture": "#layer0" },
+        "north": { "uv": [ 8, 5, 12, 10 ], "texture": "#layer0" },
+        "south": { "uv": [ 12, 5, 16, 10 ], "texture": "#layer0" },
+        "west":  { "uv": [ 0, 9, 1, 14 ], "texture": "#layer0" },
+        "east":  { "uv": [ 1, 9, 2, 14 ], "texture": "#layer0" }
+      }
+    },
+    {
+      "name": "Spike_Top",
+      "from": [ 7.5, 28, 7.5 ],
+      "to": [ 8.5, 31, 8.5 ],
+      "faces": {
+        "down":  { "uv": [ 0, 15, 1, 16 ], "texture": "#layer0" },
+        "up":    { "uv": [ 1, 15, 2, 16 ], "texture": "#layer0" },
+        "north": { "uv": [ 0, 16, 1, 19 ], "texture": "#layer0" },
+        "south": { "uv": [ 1, 16, 2, 19 ], "texture": "#layer0" },
+        "west":  { "uv": [ 2, 16, 3, 19 ], "texture": "#layer0" },
+        "east":  { "uv": [ 3, 16, 4, 19 ], "texture": "#layer0" }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ 0, 90, 45 ],
+      "translation": [ 0, 3, 0.5 ],
+      "scale": [ 1.2, 1.2, 1.2 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 0, 270, 45 ],
+      "translation": [ 0, 3, 0.5 ],
+      "scale": [ 1.2, 1.2, 1.2 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, 90, 25 ],
+      "translation": [ 1.13, 2.5, 1.13 ],
+      "scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 0, 270, 25 ],
+      "translation": [ 1.13, 2.5, 1.13 ],
+      "scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "gui": {
+      "rotation": [ 30, 225, 0 ],
+      "translation": [ 0, -2, 0 ],
+      "scale": [ 1.3, 1.3, 1.3 ]
+    },
+    "ground": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 2, 0 ],
+      "scale": [ 0.8, 0.8, 0.8 ]
+    },
+    "fixed": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1.3, 1.3, 1.3 ]
+    }
+  }
+}
