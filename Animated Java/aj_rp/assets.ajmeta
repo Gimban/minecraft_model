@@ -1,0 +1,35 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"wc": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/wc/body_lower_group.json",
+				"assets/animated_java/items/blueprint/wc/body_upper_group.json",
+				"assets/animated_java/items/blueprint/wc/head.json",
+				"assets/animated_java/items/blueprint/wc/left_lower_arm_group.json",
+				"assets/animated_java/items/blueprint/wc/left_lower_leg_group.json",
+				"assets/animated_java/items/blueprint/wc/left_upper_arm_group.json",
+				"assets/animated_java/items/blueprint/wc/left_upper_leg_group.json",
+				"assets/animated_java/items/blueprint/wc/right_lower_arm_group.json",
+				"assets/animated_java/items/blueprint/wc/right_lower_leg_group.json",
+				"assets/animated_java/items/blueprint/wc/right_upper_arm_group.json",
+				"assets/animated_java/items/blueprint/wc/right_upper_leg_group.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/wc/body_lower_group.json",
+				"assets/animated_java/models/blueprint/wc/body_upper_group.json",
+				"assets/animated_java/models/blueprint/wc/head.json",
+				"assets/animated_java/models/blueprint/wc/left_lower_arm_group.json",
+				"assets/animated_java/models/blueprint/wc/left_lower_leg_group.json",
+				"assets/animated_java/models/blueprint/wc/left_upper_arm_group.json",
+				"assets/animated_java/models/blueprint/wc/left_upper_leg_group.json",
+				"assets/animated_java/models/blueprint/wc/right_lower_arm_group.json",
+				"assets/animated_java/models/blueprint/wc/right_lower_leg_group.json",
+				"assets/animated_java/models/blueprint/wc/right_upper_arm_group.json",
+				"assets/animated_java/models/blueprint/wc/right_upper_leg_group.json",
+				"assets/animated_java/models/empty.json",
+				"assets/animated_java/textures/blueprint/wc/gimban.png"
+			]
+		}
+	}
+}
